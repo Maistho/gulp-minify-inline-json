@@ -1,0 +1,20 @@
+{
+  "name": "gulp-html-transform-minify-inline-json",
+  "version": "1.0.0",
+  "main": "index.js",
+  "types": "./index.d.ts",
+  "repository": "git@github.com:maistho/gulp-transform-html-minify-inline-json.git",
+  "author": "Gustav Bylund <maistho@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc"
+  },
+  "devDependencies": {
+    "@types/cheerio": "^0.22.6",
+    "gulp-html-transform": "^1.0.0",
+    "typescript": "^2.6.2"
+  },
+  "peerDependencies": {
+    "gulp-html-transform": "^1.0.0"
+  }
+}
